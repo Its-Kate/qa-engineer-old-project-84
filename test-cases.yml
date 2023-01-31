@@ -5,6 +5,8 @@
     При поиске товара, например крема на экране отображаются только все крема
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None      
   steps:
     -  В поле поиск ввести "cream"   
   expected-result: |
@@ -16,6 +18,8 @@
     При поиске товара, например крема на экране отображаются только все крема
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     -  В поле поиск ввести "крем"   
   expected-result: |
@@ -27,6 +31,8 @@
     При выборе определенно категории товара , например laptops на экране отображаются только laptops
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Выбираем  дропдаун меню "Категория"- "laptops"   
   expected-result: |
@@ -38,6 +44,8 @@
     При выборе сортировке товара по бренду , например Samsung на экране отображаются товары бренда Samsung
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Выбираем чек-бокс "Samsung"    
   expected-result: |
@@ -49,6 +57,8 @@
     При выбранном чек-боксе "В наличии" на экране отображаются товары которые в наличии 
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Выбираем чек-бокс "В наличии" 
   expected-result: |
@@ -60,6 +70,8 @@
     При установки ценового диапазона например, от 1 до 20 ,на экране отображаются товары стоимостью от 1 до 20$
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Устанавливаем цену от 1 до 20  
   expected-result: |
@@ -73,6 +85,8 @@
     - Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
     - Поставить флажок в категории напротив Infinix
     - Открыть карточку товара Infinix INBOOK 
+  test-data: |
+    None 
   steps:
     - На странице товара нажать на кнопку "В корзину"
   expected-result: |
@@ -85,6 +99,8 @@
   prerequisites: |
     - Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
     - Добавить в корзину товар, например Infinix INBOOK 
+  test-data: |
+    None 
   steps:
     - На главной странице в списке панели навигации нажимаем на ссылку "Корзина"
     - В Корзине нажимаем  кнопку "Удалить" напротив товара Infinix INBOOK 
@@ -97,6 +113,8 @@
     При нажатии на кнопку "Очистить корзину", из корзины удаляются все товары, которые были в нее добавлены
   prerequisites: |
     Открыта страница Корзины с добавленными товаром, например Infinix INBOOK, iPhone 9, iPhone X
+  test-data: |
+    None 
   steps:
     - Нажимаем на кнопку "Очистить корзину"
   expected-result: |
@@ -109,6 +127,8 @@
   prerequisites: |
     - Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
     - Поставить флажок в категории напротив Infinix
+  test-data: |
+    None 
   steps:
     - Нажать на карточку товара Infinix INBOOK 
   expected-result: |
@@ -120,6 +140,8 @@
     При оформление заказа должно быть сообщение "Заказ успешно оформлен"
   prerequisites: |
     Открыта страница Корзины с добавленным товаром, например Infinix INBOOK 
+  test-data: |
+    None   
   steps:
     - Нажимаем на кнопку "Оформить заказ"
   expected-result: |
@@ -131,6 +153,8 @@
     При переключении языка на русский, весь контент на сайте отображается на русском языке
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - На главной странице в списке панели навигации выбираем язык "Russian"
   expected-result: |
@@ -141,7 +165,9 @@
   requirement: |
     При нажатии в списке панели навигации на "Магазин" переходим на главную страницу сайта
   prerequisites: |
-    Открыта страница Корзины с добавленным товаром, например Infinix INBOOK 
+    Открыта страница Корзины с добавленным товаром, например Infinix INBOOK
+  test-data: |
+    None 
   steps:
     - В списке панели навигации нажимаем на "Магазин" 
   expected-result: |
@@ -153,6 +179,8 @@
     При нажатии на кнопку "Продолжить покупку" пользователя перенаправляет на главную страницу сайта со списком всех товаров
   prerequisites: |
     Открыта страница Корзины с добавленным товаром, например Infinix INBOOK 
+  test-data: |
+    None 
   steps:
     - Нажимаем на кнопку "Прододжить покупку"
   expected-result: |
@@ -164,6 +192,8 @@
     При нажатии на кнопку "Следующая" отображается следующая страница с товарами сайта сайта
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Нажать на кнопку "Следующая"
   expected-result: |
@@ -175,6 +205,8 @@
     При нажатии на кнопку "Предыдущая" отображается предыдущая страница с товарами сайта
   prerequisites: |
     Нужно зайти на веб сайт https://hexlet-products-store.vercel.app/
+  test-data: |
+    None 
   steps:
     - Нажать на кнопку "Предыдущая"
   expected-result: |
