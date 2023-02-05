@@ -81,7 +81,7 @@
   status: fail
   
 - summary: |
-    Сайт корректно отображается через браузер Internet Explorer
+    Сайт корректно отображается через браузер Microsoft Edge
   status: fail
   
   
