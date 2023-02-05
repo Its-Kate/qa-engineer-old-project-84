@@ -58,11 +58,11 @@ test-cases:
     
   - summary: |
       Навигация "Следующая" страница
-    status: pass
+    status: fail
     
   - summary: |
       Навигация "Предыдущая" страница
-    status: pass
+    status: fail
   
   - summary: |
       Сайт корректно отображается на мобильных устройствах
