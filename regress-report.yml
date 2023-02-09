@@ -103,8 +103,10 @@ bugreports:
  - summary: |
     Проблема верстки при отображении одного товара на главной странице магазина
    environment: |
-    Safari Версия Версия 15.4 (Официальная сборка)
-    MacOS Monterey Версия 12.3
+    - Safari Версия Версия 15.4 (Официальная сборка) MacOS Monterey Версия 12.3
+    - Google Chrome Версия 108.0.5359.94 (Официальная сборка), (arm64) MacOS Monterey Версия 12.3
+    - Mozilla Firefox 106.1 (Официальная сборка), (arm64) Windows 11
+    - Microsoft Edge Версия 109.1518 (Официальная сборка), (arm64) Windows 11
    steps-to-reproduce: |
     1. Заходим на веб сайт интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     2. Выбираем "Brand" - "OPPO"
@@ -113,47 +115,8 @@ bugreports:
    actual-result: |
     На экране карточка с товаром данного производителя отображается не корректно
     OPPO_Safari.png
-    
- - summary: |
-    Проблема верстки при отображении одного товара на главной странице магазина
-   environment: |
-    Google Chrome Версия 108.0.5359.94 (Официальная сборка), (arm64)
-    MacOS Monterey Версия 12.3
-   steps-to-reproduce: |
-    1. Заходим на веб сайт интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выбираем "Brand" - "OPPO"
-   expected-result: |
-    На экране должны отобразиться каталог товарой производителя OPPO с корректной версткой
-   actual-result: |
-    На экране карточка с товаром данного производителя отображается не корректно
     OPPO.png
-    
- - summary: |
-    Проблема верстки при отображении одного товара на главной странице магазина
-   environment: |
-    Mozilla Firefox 106.1 (Официальная сборка), (arm64)
-    Windows 11
-   steps-to-reproduce: |
-    1. Заходим на веб сайт интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выбираем "Brand" - "OPPO"
-   expected-result: |
-    На экране должны отобразиться каталог товарой производителя OPPO с корректной версткой
-   actual-result: |
-    На экране карточка с товаром данного производителя отображается не корректно
     OPPO_Firefox.png
-    
- - summary: |
-    Проблема верстки при отображении одного товара на главной странице магазина
-   environment: |
-    Microsoft Edge Версия 109.1518 (Официальная сборка), (arm64)
-    Windows 11
-   steps-to-reproduce: |
-    1. Заходим на веб сайт интернет магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выбираем "Brand" - "OPPO"
-   expected-result: |
-    На экране должны отобразиться каталог товарой производителя OPPO с корректной версткой
-   actual-result: |
-    На экране карточка с товаром данного производителя отображается не корректно
     OPPO_Microsoft.png
     
  - summary: |
